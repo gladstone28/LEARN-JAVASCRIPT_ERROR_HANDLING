@@ -19,3 +19,19 @@ console.log(new Error('Your password is too weak.'));
 // Prints: Error: Your password is too weak.
 ```
 Keep in mind that creating an error is not the same as throwing an error. A thrown error will cause the program to stop running. We’ll cover how to throw our created errors in the next exercise!
+
+
+### Instructions
+
+Checkpoint 1 Passed
+
+1. At the top of main.js add a console.log() that prints an error with the message 'User missing name'.
+
+After running the code, take note of the console.log() at the bottom of main.js and if that line of code still runs.
+
+The argument passed to the Error() function becomes the message property of the new error. You may use the Error() function create the error object or use the new keyword with the Error().
+```
+console.log(Error('Message goes here'));
+// OR
+console.log(new Error('Message goes here'));
+```
