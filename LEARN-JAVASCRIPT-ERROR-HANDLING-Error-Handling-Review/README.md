@@ -21,3 +21,12 @@ In this lesson we went over:
 - Catching the error in a catch block to allow our program to continue running.
 - Why the try...catch statement would be useful in a program.
 Now you have the ability to create code that doesn’t break when an error is thrown!
+
+
+### Instructions
+
+If you want to challenge yourself:
+
+- Force different built-in error object to be thrown in a try...catch statement and see when the messages are different.
+- Test out what different data types you can throw.
+- Use try...catch for a function that accepts user input to allow errors to be thrown but your program to continue running.
